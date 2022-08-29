@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- importando o CSS -->
+    <link rel="stylesheet" href="estilizar.css" /> 
+</head>
+<!-- Usando tags HTML para formatação da pagina e criação dos inputs  -->
+<body>
+    <header>
+        <h3>Aplicativo de lembretes</h3>
+    </header>
+    <section>
+        <form class="container">
+            <div>
+                <label for="" class="datalab">Data </label>
+                <input class="data" type="text" placeholder="Digite a data dd/mm/aaaa:" required> <br>
+                <div>
+                    <label for="" class="nomelab">Lembrete</label>
+                    <input class="nome" type="text" placeholder="Digite o nome do lembrete:" required>
+                </div>
+                <input type="button" value="Criar" class="botao" onclick="addDados()">
+            </div>
+        </form>
+    </section>
+    <section>
+        <div class="addDia">
+            <h3>Lista de Lembretes</h3>
+            <!--  -->
+        </div>
+    </section>
+    <!-- Importando o Icone do IonIcons e importando o arquivo JS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="funcoes.js"></script>
+</body>
+
+</html>

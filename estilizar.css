@@ -1,0 +1,94 @@
+/* estilização da pagina */
+
+body {
+    background-color: lightblue;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 18px;
+    background-color: cornflowerblue;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 50px;
+    border: 1px solid cornflowerblue;
+    border-radius: 20px;
+}
+/* estilizando classes*/
+.nome {
+    background-color: rgb(199, 218, 238);
+}
+
+.add {
+    margin-left: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.data {
+    background-color: rgb(199, 218, 238);
+}
+
+.datalab {
+    text-align: left;
+}
+
+.nomelab {
+    text-align: left;
+}
+form input {
+    padding: 20px;
+    min-width: 300px;
+    border: 1px solid cornflowerblue;
+    border-radius: 20px;
+}
+
+form input:focus {
+    background-color: wheat;
+}
+
+
+
+form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.container {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.botao {
+    margin-top: 20px;
+    color: white;
+    cursor: pointer;
+    background: cornflowerblue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+form label {
+    margin-left: 10px;
+}
+
+ion-icon {
+    color: red;
+    font-size: 20px;
+    align-items: center;
+}
